@@ -3,12 +3,34 @@
   "version": "1.0.0",
   "description": "Cloudflare Worker for IP geolocation using MaxMind GeoLite2 database from R2",
   "main": "src/index.js",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "geoip",
+    "geolocation",
+    "maxmind",
+    "ip-lookup",
+    "r2",
+    "edge-computing",
+    "serverless"
+  ],
+  "author": "CFW-GeoIP Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/cfw-geoip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/cfw-geoip/issues"
+  },
+  "homepage": "https://github.com/your-username/cfw-geoip#readme",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "deploy:auto": "node scripts/deploy.js",
     "tail": "wrangler tail",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "github:deploy": "bash scripts/github-deploy.sh"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240512.0",
@@ -16,5 +38,8 @@
   },
   "dependencies": {
     "buffer": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
