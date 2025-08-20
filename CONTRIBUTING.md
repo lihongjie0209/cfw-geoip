@@ -8,7 +8,7 @@
 
 如果你发现了 bug，请：
 
-1. 检查 [Issues](https://github.com/your-username/cfw-geoip/issues) 确认该 bug 尚未被报告
+1. 检查 [Issues](https://github.com/lihongjie0209/cfw-geoip/issues) 确认该 bug 尚未被报告
 2. 创建新的 Issue，包含：
    - Bug 的详细描述
    - 重现步骤
@@ -43,7 +43,7 @@
 
 1. 克隆你的 fork
 ```bash
-git clone https://github.com/your-username/cfw-geoip.git
+git clone https://github.com/lihongjie0209/cfw-geoip.git
 cd cfw-geoip
 ```
 

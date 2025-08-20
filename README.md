@@ -1,14 +1,17 @@
-# Cloudflare Worker GeoIP API
+# Cloudflare Worker GeoIP Service
 
-基于 Cloudflare Worker 和 R2 存储的 IP 地理位置查询服务，使用 MaxMind GeoLite2 数据库。
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lihongjie0209/cfw-geoip)
 
-## 功能特性
+A high-performance IP geolocation service built on Cloudflare Workers, using MaxMind GeoLite2 database stored in R2.
 
-- 🌍 基于 MaxMind GeoLite2-City 数据库的精确 IP 地理位置查询
-- ⚡ 使用 WebAssembly (WASM) 模块实现高性能 MMDB 文件解析
-- 💾 使用 Cloudflare Cache API 缓存，避免重复下载数据库文件
-- 🔄 支持自动获取客户端 IP 或指定 IP 查询
-- 🌐 支持 IPv4 和 IPv6 地址
+## 🌟 Features
+
+- 🚀 **High Performance**: Edge computing with Cloudflare Workers for global low latency
+- 📊 **Accurate Data**: Uses MaxMind GeoLite2-City database
+- 💾 **Smart Caching**: Multi-level caching strategy to reduce R2 storage access
+- 🌍 **CORS Support**: Cross-origin requests supported
+- � **Easy Deployment**: Simple configuration and deployment process
+- 🌐 **Multi-language**: Supports both English and Chinese location names
 - 📊 返回详细的地理位置信息（国家、城市、坐标等）
 - 🚀 全球边缘节点部署，低延迟响应
 - 💾 智能缓存：数据库文件和查询结果分层缓存

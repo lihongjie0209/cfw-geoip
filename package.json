@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/cfw-geoip.git"
+    "url": "git+https://github.com/lihongjie0209/cfw-geoip.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/cfw-geoip/issues"
+    "url": "https://github.com/lihongjie0209/cfw-geoip/issues"
   },
-  "homepage": "https://github.com/your-username/cfw-geoip#readme",
+  "homepage": "https://github.com/lihongjie0209/cfw-geoip#readme",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
